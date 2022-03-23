@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+  var task="112+19"
+document.getElementById("demo").innerHTML = add(task);
+
+function add(task) {
+  var k=task.split('+');
+  var a=parseInt(k[0]);
+  var b=parseInt(k[1]);
+  return a+b;
+}
+</script>
+</body>
+</html>
